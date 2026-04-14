@@ -1,0 +1,164 @@
+@media screen and (max-width: 1025px) {
+  #what-we-do .card {
+    padding: 32px !important;
+  }
+  .heading h1{
+    font-size: 45px;
+    line-height: normal;
+  }
+    header .image-wrapper {
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  header .inner {
+    width: 70% !important;
+    height: 300px;
+    margin: auto;
+    margin-top: 15px;
+  }
+
+  header {
+    height: auto;
+    text-align: center;
+    padding: 120px 0 50px 0;
+  }
+
+  .heading {
+    max-width: 60%;
+    margin-inline: auto;
+  }
+
+  .heading h1 {
+    font-size: 40px;
+    line-height: normal;
+    margin: 0;
+  }
+
+  .heading p {
+    font-size: 14px;
+  }
+
+  .buttons {
+    justify-content: center;
+    align-content: center;
+  }
+
+  .none {
+    display: none;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 9%;
+  }
+
+  .section-heading {
+    margin-bottom: 3.125rem;
+  }
+
+  .section-heading h2 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  .section-heading span {
+    letter-spacing: 2px;
+  }
+
+  .section-heading span.description {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 32px;
+  }
+
+  .section-heading span.details {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  #footer p {
+    font-size: 14px;
+  }
+
+  .footer-col h2 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  #footer .details a,
+  footer .details span {
+    font-size: 14px;
+  }
+
+  header .image-wrapper {
+    margin-top: 30px;
+  }
+  #contacts .contact-us {
+    margin-bottom: 25px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  #footer div.details {
+    flex-flow: column wrap;
+  }
+
+  .heading {
+    width: 100%;
+    max-width: 90%;
+  }
+
+  header .buttons {
+    flex-direction: column;
+  }
+  header .buttons a {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  header .label {
+    left: 0;
+  }
+
+  #footer .footer-col {
+    width: 100% !important;
+    /* text-align: center; */
+  }
+
+  #footer .footer-row .footer-col {
+    text-align: center;
+  }
+
+  #footer .footer-col ul {
+    justify-content: center !important;
+  }
+  #latest-games .image-holder {
+    margin-bottom: 10px;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 15%;
+  }
+  #what-we-do .image-holder {
+    height: 300px;
+  }
+  .heading h1 {
+    font-size: 35px;
+  }
+  .heading p {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  header .image-wrapper {
+    height: 290px;
+  }
+  #latest-games .games {
+    font-size: 16px !important;
+  }
+  .section-heading span.description {
+    font-size: 28px;
+  }
+}
