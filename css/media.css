@@ -1,28 +1,28 @@
 @media screen and (max-width: 1025px) {
   #what-we-do .card {
-    padding: 32px !important;
+    padding: 2rem !important;
   }
   .heading h1{
-    font-size: 45px;
+    font-size: 2.8125rem;
     line-height: normal;
   }
     header .image-wrapper {
-    height: 350px;
+    height: 21.875rem;
   }
 }
 
 @media screen and (max-width: 992px) {
   header .inner {
     width: 70% !important;
-    height: 300px;
+    height: 18.75rem;
     margin: auto;
-    margin-top: 15px;
+    margin-top: .9375rem;
   }
 
   header {
     height: auto;
     text-align: center;
-    padding: 120px 0 50px 0;
+    padding: 7.5rem 0 3.125rem 0;
   }
 
   .heading {
@@ -31,13 +31,13 @@
   }
 
   .heading h1 {
-    font-size: 40px;
+    font-size: 2.5rem;
     line-height: normal;
     margin: 0;
   }
 
   .heading p {
-    font-size: 14px;
+    font-size: .875rem;
   }
 
   .buttons {
@@ -55,48 +55,48 @@
   }
 
   .section-heading {
-    margin-bottom: 3.125rem;
+    margin-bottom: 50px;
   }
 
   .section-heading h2 {
-    font-size: 32px;
-    line-height: 32px;
+    font-size: 2rem;
+    line-height: 2rem;
   }
 
   .section-heading span {
-    letter-spacing: 2px;
+    letter-spacing: .125rem;
   }
 
   .section-heading span.description {
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 600;
-    line-height: 32px;
+    line-height: 2rem;
   }
 
   .section-heading span.details {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 
   #footer p {
-    font-size: 14px;
+    font-size: .875rem;
   }
 
   .footer-col h2 {
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 500;
   }
 
   #footer .details a,
   footer .details span {
-    font-size: 14px;
+    font-size: .875rem;
   }
 
   header .image-wrapper {
-    margin-top: 30px;
+    margin-top: 1.875rem;
   }
   #contacts .contact-us {
-    margin-bottom: 25px !important;
+    margin-bottom: 1.5625rem !important;
   }
 }
 
@@ -124,7 +124,6 @@
 
   #footer .footer-col {
     width: 100% !important;
-    /* text-align: center; */
   }
 
   #footer .footer-row .footer-col {
@@ -135,7 +134,7 @@
     justify-content: center !important;
   }
   #latest-games .image-holder {
-    margin-bottom: 10px;
+    margin-bottom: .625rem;
   }
 
   .carousel-control-prev,
@@ -143,22 +142,22 @@
     width: 15%;
   }
   #what-we-do .image-holder {
-    height: 300px;
+    height: 18.75rem;
   }
   .heading h1 {
-    font-size: 35px;
+    font-size: 2.1875rem;
   }
   .heading p {
-    font-size: 12px;
-    margin-top: 10px;
+    font-size: .75rem;
+    margin-top: .625rem;
   }
   header .image-wrapper {
-    height: 290px;
+    height: 18.125rem;
   }
   #latest-games .games {
-    font-size: 16px !important;
+    font-size: 1rem !important;
   }
   .section-heading span.description {
-    font-size: 28px;
+    font-size: 1.75rem;
   }
 }

@@ -13,6 +13,10 @@
   --section-padding: 5.625rem;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   color: inherit;
 }
@@ -158,7 +162,7 @@ header {
 }
 
 header .image-wrapper {
-  height: 400px;
+  height: 25rem;
   border: 0.3125rem solid transparent;
   border-radius: 1.25rem;
   background:
@@ -277,7 +281,7 @@ img {
 
 .carousel-control-prev i,
 .carousel-control-next i {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #6f757f;
   transition: all 0.2s ease-in-out;
 }
@@ -293,8 +297,8 @@ img {
 }
 
 #latest-games .games {
-  border: 2px solid var(--main-text-color);
-  font-size: 18px;
+  border: .125rem solid var(--main-text-color);
+  font-size: 1.125rem;
   font-weight: 700;
   background-color: transparent;
   transition: all 0.2s ease-in-out;
@@ -401,11 +405,6 @@ img {
 }
 
 
-
-.logos {
-  /* padding-top: 80px; */
-}
-
 #logos-section{
   padding-top: 0 !important;
   padding: 50px 0 !important;
@@ -414,7 +413,7 @@ img {
 
 #logos-section .slider {
   .logo-card {
-    margin-bottom: 10px;
+    margin-bottom: .625rem;
   }
 }
 
@@ -422,7 +421,7 @@ img {
 #logos-section::after {
   content: "";
   width: 50%;
-  height: 2px;
+  height: .125rem;
   background: linear-gradient(
     to right,
     #000,
@@ -430,7 +429,7 @@ img {
     var(--main-text-color) 80%,
     #000
   );
-  box-shadow: 0px 0px 10px 1px rgba(212, 232, 93, 0.7);
+  box-shadow: 0rem 0rem .625rem .0625rem rgba(212, 232, 93, 0.7);
   position: absolute;
   top: -10%;
   left: 50%;
@@ -462,20 +461,19 @@ img {
 
 
 #logos-section .slider .logo-card {
-  width: 96px;
-  height: 96px;
+  width: 6rem;
+  height: 6rem;
 }
 
 #logos-section::before {
   content: "";
   width: 100%;
   height: 100%;
-  /* border-radius: 50%; */
   background: radial-gradient(
     var(--main-text-color),
     var(--main-section-bg) 70%
   );
-  filter: blur(3px);
+  filter: blur(.1875rem);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -531,7 +529,7 @@ img {
   background-color: rgba(0, 0, 0, 0.3);
   backdrop-filter: grayscale(100%);
   -webkit-backdrop-filter: grayscale(100%);
-  border-radius: 16px;
+  border-radius: 1rem;
   position: absolute;
   top: 0;
   left: 0;
@@ -556,11 +554,11 @@ img {
 }
 
 .contact-card .icon i {
-  font-size: 25px;
+  font-size: 1.5625rem;
 }
 
 .contact-card h3 {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
   line-height: 28px;
   letter-spacing: -1px;
@@ -591,7 +589,7 @@ img {
 }
 
 .contact-us .fa-brands {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .form-wrapper {
@@ -599,15 +597,15 @@ img {
 }
 
 .form-wrapper h3 {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
-  line-height: 28px;
+  line-height: 1.75rem;
   margin: 0;
 }
 
 .form-wrapper label {
-  font-size: 14px;
-  font-weight: 700px;
+  font-size: .875rem;
+  font-weight: 43.75rem;
   color: #d1d5dc;
 }
 
@@ -615,7 +613,7 @@ img {
 .form-select {
   background-color: #364153;
   border: 1px solid #4a5565;
-  border-radius: 7px;
+  border-radius: .4375rem;
 }
 
 .form-control:focus,
@@ -629,7 +627,7 @@ img {
 
 .form-wrapper input::placeholder,
 .form-wrapper textarea::placeholder {
-  font-size: 16px;
+  font-size: 1rem;
   color: #9399a2;
   text-transform: capitalize;
 }
@@ -639,7 +637,6 @@ img {
   width: 100%;
   height: 10px;
   background-color: white;
-  /* background-color: #4A5565; */
   position: absolute;
   top: 0;
   left: 0;
@@ -649,7 +646,7 @@ input [type="checkbox"] {
   background-color: #fff;
   width: 1.15rem;
   height: 1.15rem;
-  border: 1px solid #767676;
+  border: .0625rem solid #767676;
   border-radius: 0.15rem;
 }
 
@@ -695,7 +692,7 @@ input [type="checkbox"] {
 }
 
 .form-wrapper button span {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 700;
   color: var(--main-section-bg);
 }
@@ -707,7 +704,7 @@ input [type="checkbox"] {
 .form-wrapper .line::after {
   content: "";
   width: 188%;
-  height: 0.1px;
+  height: .0063rem;
   background-color: #4a5565;
   position: absolute;
   top: -30%;
@@ -720,7 +717,7 @@ input [type="checkbox"] {
 /* Start footer */
 
 #footer .logo {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
 }
 
@@ -734,9 +731,9 @@ input [type="checkbox"] {
 }
 
 .footer-col h2 {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
-  letter-spacing: -0.5px;
+  letter-spacing: -0.0313rem;
   color: #f1f1f1;
 }
 
@@ -757,7 +754,7 @@ input [type="checkbox"] {
 .footer-row::before {
   content: "";
   width: 100%;
-  height: 0.09px;
+  height: .0056rem;
   background-color: #1e2939;
   position: absolute;
   top: 30%;
